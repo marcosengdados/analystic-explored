@@ -3,6 +3,7 @@
 Este projeto tem como objetivo realizar uma análise exploratória de dados de entregas fornecidos pela Loggi, com foco em identificar padrões de distribuição, regiões com maior demanda e potenciais melhorias logísticas. A proposta foi desenvolvida como parte prática do curso de Analista de Dados da EBAC.
 
 # 📌 Objetivos da Análise
+
 Identificar regiões de origem e destino com maior volume de entregas.
 
 Avaliar a distribuição de peso das entregas por região.
@@ -33,16 +34,20 @@ Mapas com entregas e hubs logísticos georreferenciados.
 Identificação de padrões logísticos, como concentração de entregas e análise de regiões subatendidas.
 
 # 🛠️ Tecnologias Utilizadas
-Ferramenta	Descrição
-Python	Linguagem principal da análise
-Pandas	Manipulação e limpeza de dados
-GeoPandas	Geoprocessamento de dados espaciais
-Seaborn e Matplotlib	Criação de visualizações estatísticas
-Geopy	Geocodificação reversa
-JSON	Manipulação de dados estruturados
-Shapefiles IBGE	Base cartográfica do Distrito Federal
+
+Python	
+
+**Linguagem principal da análise**
+
+- Pandas	Manipulação e limpeza de dados
+- GeoPandas	Geoprocessamento de dados espaciais
+- Seaborn e Matplotlib	Criação de visualizações estatísticas
+- Geopy	Geocodificação reversa
+- JSON	Manipulação de dados estruturados
+- Shapefiles IBGE	Base cartográfica do Distrito Federal
 
 # 📍 Destaques Técnicos
+
 Aplicação de explosão de dados aninhados (explode + json_normalize).
 
 Enriquecimento de dados com geolocalização e mapas temáticos.
@@ -52,6 +57,7 @@ Análise de qualidade de dados e tratamento de valores nulos.
 Visualização interativa da cobertura logística por região, com apoio de mapas shapefile.
 
 # 📊 Resultados e Insights
+
 A maior parte das entregas está concentrada em poucas regiões de destino.
 
 A região df-0 apresenta subutilização, sugerindo revisão na estratégia de frota.
